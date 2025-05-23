@@ -1,0 +1,11 @@
+**myhost.ini
+[localhost]
+
+127.0.0.1
+
+** COmmands
+nano play1.yml
+nano myhost.ini
+ansible-playbook -i myhost.ini play1.yml
+sudo service nginx status
+sudo service apache2 status
